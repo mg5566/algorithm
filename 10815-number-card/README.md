@@ -15,10 +15,16 @@
 ## 실행 방법
 
 ```bash
-node index.ts < input.txt
+npx ts-node index.ts < input.txt
 ```
 
-또는 온라인 저지에서 표준 입력으로 실행하면 됩니다.
+또는 아래와 같이 컴파일 후 실행할 수도 있습니다.
+
+```bash
+npx tsc index.ts && node index.js < input.txt
+```
+
+온라인 저지에서는 표준 입력을 그대로 사용하면 됩니다.
 
 ## 테스트 방법
 

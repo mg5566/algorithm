@@ -1,6 +1,6 @@
 export function checkCards(cards: number[], queries: number[]): number[] {
-  const set = new Set(cards);
-  return queries.map((q) => (set.has(q) ? 1 : 0));
+  const cardsSet = new Set(cards);
+  return queries.map((q) => (cardsSet.has(q) ? 1 : 0));
 }
 
 export function solve(input: string): string {
