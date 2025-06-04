@@ -1,4 +1,7 @@
-function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
+export function findMedianSortedArrays(
+  nums1: number[],
+  nums2: number[]
+): number {
   // Merge two arrays
   const nums = [...nums1, ...nums2];
   // Sort the merged array

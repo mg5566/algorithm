@@ -1,4 +1,4 @@
-function isPalindrome(x: number): boolean {
+export function isPalindrome(x: number): boolean {
   // 엣지 케이스 제거: 음수와 0이 아닌데 10으로 나누어 떨어지는 수는 회문이 아님
   if (x < 0 || (x % 10 === 0 && x !== 0)) return false;
 

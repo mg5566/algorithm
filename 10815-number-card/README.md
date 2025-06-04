@@ -23,8 +23,7 @@ npx ts-node index.ts < input.txt
 ```bash
 npx tsc index.ts && node index.js < input.txt
 ```
-
-온라인 저지에서는 표준 입력을 그대로 사용하면 됩니다.
+온라인 저지에서는 `/dev/stdin` 경로를 사용하면 됩니다.
 
 ## 테스트 방법
 

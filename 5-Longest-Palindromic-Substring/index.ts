@@ -1,4 +1,4 @@
-function expandAroundCenter(
+export function expandAroundCenter(
   string: string,
   left: number,
   right: number
@@ -10,7 +10,7 @@ function expandAroundCenter(
   return string.substring(left + 1, right);
 }
 
-function longestPalindrome(s: string): string {
+export function longestPalindrome(s: string): string {
   let longest = "";
 
   for (let i = 0; i < s.length; i++) {

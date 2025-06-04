@@ -13,8 +13,6 @@ describe("permute", () => {
       [3, 2, 1],
     ];
     const result = permute(nums);
-    console.log("Expected:", expected);
-    console.log("Received:", result);
     expect(result).toEqual(expected);
   });
 
@@ -25,8 +23,6 @@ describe("permute", () => {
       [1, 0],
     ];
     const result = permute(nums);
-    console.log("Expected:", expected);
-    console.log("Received:", result);
     expect(result).toEqual(expected);
   });
 
@@ -34,8 +30,6 @@ describe("permute", () => {
     const nums = [1];
     const expected = [[1]];
     const result = permute(nums);
-    console.log("Expected:", expected);
-    console.log("Received:", result);
     expect(result).toEqual(expected);
   });
 
@@ -43,8 +37,6 @@ describe("permute", () => {
     const nums: number[] = [];
     const expected: number[][] = [[]];
     const result = permute(nums);
-    console.log("Expected:", expected);
-    console.log("Received:", result);
     expect(result).toEqual(expected);
   });
 });
